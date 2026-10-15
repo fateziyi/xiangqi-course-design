@@ -1,0 +1,18 @@
+{
+  "format": "xiangqi-course-record",
+  "version": 1,
+  "ruleset": "course-v1",
+  "createdAt": "2026-10-12T10:42:36.023548+08:00",
+  "mode": "human_human",
+  "humanSide": null,
+  "redAI": {
+    "maxDepth": 4,
+    "timeLimitMs": 1500
+  },
+  "blackAI": {
+    "maxDepth": 4,
+    "timeLimitMs": 1500
+  },
+  "moves": [],
+  "result": null
+}

@@ -1,0 +1,2217 @@
+{
+  "index": 2,
+  "nativeSide": "red",
+  "prefixLength": 2,
+  "record": {
+    "format": "xiangqi-course-record",
+    "version": 2,
+    "ruleset": "course-v1",
+    "createdAt": "2026-10-12T18:24:03.605666+08:00",
+    "mode": "ai_ai",
+    "humanSide": null,
+    "redAI": {
+      "maxDepth": 128,
+      "timeLimitMs": 500,
+      "engine": "pikafish"
+    },
+    "blackAI": {
+      "maxDepth": 8,
+      "timeLimitMs": 1500
+    },
+    "moves": [
+      {
+        "from": 87,
+        "to": 71
+      },
+      {
+        "from": 25,
+        "to": 43
+      },
+      {
+        "from": 60,
+        "to": 51
+      },
+      {
+        "from": 19,
+        "to": 26
+      },
+      {
+        "from": 56,
+        "to": 47
+      },
+      {
+        "from": 26,
+        "to": 62
+      },
+      {
+        "from": 71,
+        "to": 87
+      },
+      {
+        "from": 43,
+        "to": 36
+      },
+      {
+        "from": 82,
+        "to": 63
+      },
+      {
+        "from": 62,
+        "to": 54
+      },
+      {
+        "from": 81,
+        "to": 82
+      },
+      {
+        "from": 36,
+        "to": 40
+      },
+      {
+        "from": 84,
+        "to": 76
+      },
+      {
+        "from": 54,
+        "to": 45
+      },
+      {
+        "from": 89,
+        "to": 62
+      },
+      {
+        "from": 45,
+        "to": 51
+      },
+      {
+        "from": 87,
+        "to": 71
+      },
+      {
+        "from": 51,
+        "to": 48
+      },
+      {
+        "from": 58,
+        "to": 49
+      },
+      {
+        "from": 40,
+        "to": 43
+      },
+      {
+        "from": 88,
+        "to": 69
+      },
+      {
+        "from": 7,
+        "to": 24
+      },
+      {
+        "from": 62,
+        "to": 57
+      },
+      {
+        "from": 43,
+        "to": 52
+      },
+      {
+        "from": 49,
+        "to": 40
+      },
+      {
+        "from": 48,
+        "to": 49
+      },
+      {
+        "from": 85,
+        "to": 84
+      },
+      {
+        "from": 52,
+        "to": 47
+      },
+      {
+        "from": 57,
+        "to": 3
+      },
+      {
+        "from": 4,
+        "to": 13
+      },
+      {
+        "from": 64,
+        "to": 67
+      },
+      {
+        "from": 31,
+        "to": 40
+      },
+      {
+        "from": 82,
+        "to": 10
+      },
+      {
+        "from": 13,
+        "to": 22
+      },
+      {
+        "from": 3,
+        "to": 21
+      }
+    ],
+    "result": {
+      "winner": "red",
+      "reason": "checkmate"
+    }
+  },
+  "searches": [
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 20,
+      "nodes": 1667534,
+      "score": -14,
+      "elapsedMs": 515,
+      "startupMs": 672,
+      "totalElapsedMs": 1187,
+      "pv": [
+        {
+          "from": 60,
+          "to": 51
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 82,
+          "to": 63
+        },
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 86,
+          "to": 76
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 64,
+          "to": 28
+        },
+        {
+          "from": 43,
+          "to": 39
+        },
+        {
+          "from": 69,
+          "to": 50
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 39,
+          "to": 30
+        },
+        {
+          "from": 51,
+          "to": 42
+        },
+        {
+          "from": 22,
+          "to": 42
+        },
+        {
+          "from": 81,
+          "to": 72
+        },
+        {
+          "from": 3,
+          "to": 13
+        },
+        {
+          "from": 72,
+          "to": 75
+        },
+        {
+          "from": 0,
+          "to": 3
+        },
+        {
+          "from": 89,
+          "to": 86
+        },
+        {
+          "from": 6,
+          "to": 22
+        },
+        {
+          "from": 54,
+          "to": 45
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 24784,
+      "elapsedMs": 1500,
+      "score": 45,
+      "pv": [
+        {
+          "from": 19,
+          "to": 26
+        },
+        {
+          "from": 70,
+          "to": 7
+        },
+        {
+          "from": 43,
+          "to": 40
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 67,
+          "to": 40
+        },
+        {
+          "from": 31,
+          "to": 40
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 22,
+      "nodes": 2504986,
+      "score": 43,
+      "elapsedMs": 500,
+      "startupMs": 640,
+      "totalElapsedMs": 1140,
+      "pv": [
+        {
+          "from": 56,
+          "to": 47
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 82,
+          "to": 65
+        },
+        {
+          "from": 6,
+          "to": 22
+        },
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 81,
+          "to": 82
+        },
+        {
+          "from": 7,
+          "to": 14
+        },
+        {
+          "from": 64,
+          "to": 28
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 47,
+          "to": 38
+        },
+        {
+          "from": 22,
+          "to": 38
+        },
+        {
+          "from": 28,
+          "to": 29
+        },
+        {
+          "from": 38,
+          "to": 22
+        },
+        {
+          "from": 82,
+          "to": 1
+        },
+        {
+          "from": 20,
+          "to": 1
+        },
+        {
+          "from": 69,
+          "to": 50
+        },
+        {
+          "from": 43,
+          "to": 40
+        },
+        {
+          "from": 86,
+          "to": 76
+        },
+        {
+          "from": 1,
+          "to": 18
+        },
+        {
+          "from": 29,
+          "to": 30
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 70,
+          "to": 68
+        },
+        {
+          "from": 18,
+          "to": 11
+        },
+        {
+          "from": 30,
+          "to": 29
+        },
+        {
+          "from": 14,
+          "to": 21
+        },
+        {
+          "from": 50,
+          "to": 33
+        },
+        {
+          "from": 26,
+          "to": 23
+        },
+        {
+          "from": 89,
+          "to": 87
+        },
+        {
+          "from": 11,
+          "to": 18
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 30468,
+      "elapsedMs": 1500,
+      "score": 119,
+      "pv": [
+        {
+          "from": 26,
+          "to": 62
+        },
+        {
+          "from": 71,
+          "to": 87
+        },
+        {
+          "from": 43,
+          "to": 40
+        },
+        {
+          "from": 64,
+          "to": 67
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 19,
+      "nodes": 1299466,
+      "score": 98,
+      "elapsedMs": 500,
+      "startupMs": 657,
+      "totalElapsedMs": 1157,
+      "pv": [
+        {
+          "from": 71,
+          "to": 87
+        },
+        {
+          "from": 62,
+          "to": 44
+        },
+        {
+          "from": 82,
+          "to": 65
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 65,
+          "to": 46
+        },
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 43,
+          "to": 36
+        },
+        {
+          "from": 81,
+          "to": 82
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 89,
+          "to": 88
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 70,
+          "to": 25
+        },
+        {
+          "from": 36,
+          "to": 41
+        },
+        {
+          "from": 83,
+          "to": 67
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 47,
+          "to": 38
+        },
+        {
+          "from": 44,
+          "to": 38
+        },
+        {
+          "from": 82,
+          "to": 83
+        },
+        {
+          "from": 0,
+          "to": 2
+        },
+        {
+          "from": 69,
+          "to": 50
+        },
+        {
+          "from": 38,
+          "to": 37
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 27947,
+      "elapsedMs": 1500,
+      "score": 119,
+      "pv": [
+        {
+          "from": 43,
+          "to": 36
+        },
+        {
+          "from": 64,
+          "to": 63
+        },
+        {
+          "from": 36,
+          "to": 40
+        },
+        {
+          "from": 63,
+          "to": 67
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 19,
+      "nodes": 1454865,
+      "score": 96,
+      "elapsedMs": 515,
+      "startupMs": 625,
+      "totalElapsedMs": 1140,
+      "pv": [
+        {
+          "from": 82,
+          "to": 63
+        },
+        {
+          "from": 62,
+          "to": 54
+        },
+        {
+          "from": 81,
+          "to": 82
+        },
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 6,
+          "to": 22
+        },
+        {
+          "from": 82,
+          "to": 55
+        },
+        {
+          "from": 54,
+          "to": 45
+        },
+        {
+          "from": 51,
+          "to": 42
+        },
+        {
+          "from": 22,
+          "to": 42
+        },
+        {
+          "from": 55,
+          "to": 46
+        },
+        {
+          "from": 45,
+          "to": 54
+        },
+        {
+          "from": 47,
+          "to": 38
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 89,
+          "to": 53
+        },
+        {
+          "from": 36,
+          "to": 63
+        },
+        {
+          "from": 83,
+          "to": 63
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 88,
+          "to": 71
+        },
+        {
+          "from": 7,
+          "to": 61
+        },
+        {
+          "from": 53,
+          "to": 48
+        },
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 46,
+          "to": 1
+        },
+        {
+          "from": 20,
+          "to": 1
+        },
+        {
+          "from": 48,
+          "to": 12
+        },
+        {
+          "from": 1,
+          "to": 18
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 33480,
+      "elapsedMs": 1500,
+      "score": 212,
+      "pv": [
+        {
+          "from": 62,
+          "to": 54
+        },
+        {
+          "from": 81,
+          "to": 82
+        },
+        {
+          "from": 36,
+          "to": 40
+        },
+        {
+          "from": 64,
+          "to": 67
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 20,
+      "nodes": 2566506,
+      "score": 122,
+      "elapsedMs": 500,
+      "startupMs": 641,
+      "totalElapsedMs": 1141,
+      "pv": [
+        {
+          "from": 81,
+          "to": 82
+        },
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 51,
+          "to": 42
+        },
+        {
+          "from": 7,
+          "to": 79
+        },
+        {
+          "from": 42,
+          "to": 41
+        },
+        {
+          "from": 20,
+          "to": 13
+        },
+        {
+          "from": 84,
+          "to": 76
+        },
+        {
+          "from": 33,
+          "to": 42
+        },
+        {
+          "from": 82,
+          "to": 55
+        },
+        {
+          "from": 54,
+          "to": 45
+        },
+        {
+          "from": 41,
+          "to": 42
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 55,
+          "to": 46
+        },
+        {
+          "from": 45,
+          "to": 54
+        },
+        {
+          "from": 42,
+          "to": 33
+        },
+        {
+          "from": 36,
+          "to": 42
+        },
+        {
+          "from": 69,
+          "to": 68
+        },
+        {
+          "from": 27,
+          "to": 36
+        },
+        {
+          "from": 46,
+          "to": 55
+        },
+        {
+          "from": 36,
+          "to": 45
+        },
+        {
+          "from": 55,
+          "to": 57
+        },
+        {
+          "from": 35,
+          "to": 44
+        },
+        {
+          "from": 58,
+          "to": 49
+        },
+        {
+          "from": 0,
+          "to": 36
+        },
+        {
+          "from": 68,
+          "to": 14
+        },
+        {
+          "from": 79,
+          "to": 78
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 24573,
+      "elapsedMs": 1500,
+      "score": 198,
+      "pv": [
+        {
+          "from": 36,
+          "to": 40
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 8,
+          "to": 17
+        },
+        {
+          "from": 82,
+          "to": 19
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 19,
+      "nodes": 2527772,
+      "score": 222,
+      "elapsedMs": 500,
+      "startupMs": 625,
+      "totalElapsedMs": 1125,
+      "pv": [
+        {
+          "from": 84,
+          "to": 76
+        },
+        {
+          "from": 40,
+          "to": 44
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 27,
+          "to": 36
+        },
+        {
+          "from": 69,
+          "to": 50
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 7,
+          "to": 43
+        },
+        {
+          "from": 50,
+          "to": 33
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 82,
+          "to": 55
+        },
+        {
+          "from": 36,
+          "to": 45
+        },
+        {
+          "from": 33,
+          "to": 44
+        },
+        {
+          "from": 20,
+          "to": 13
+        },
+        {
+          "from": 55,
+          "to": 57
+        },
+        {
+          "from": 35,
+          "to": 44
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 26567,
+      "elapsedMs": 1500,
+      "score": 194,
+      "pv": [
+        {
+          "from": 54,
+          "to": 45
+        },
+        {
+          "from": 83,
+          "to": 67
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 64,
+          "to": 10
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 18,
+      "nodes": 1807899,
+      "score": 240,
+      "elapsedMs": 515,
+      "startupMs": 625,
+      "totalElapsedMs": 1140,
+      "pv": [
+        {
+          "from": 89,
+          "to": 62
+        },
+        {
+          "from": 6,
+          "to": 22
+        },
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 7,
+          "to": 14
+        },
+        {
+          "from": 62,
+          "to": 59
+        },
+        {
+          "from": 14,
+          "to": 21
+        },
+        {
+          "from": 70,
+          "to": 34
+        },
+        {
+          "from": 33,
+          "to": 42
+        },
+        {
+          "from": 34,
+          "to": 25
+        },
+        {
+          "from": 5,
+          "to": 13
+        },
+        {
+          "from": 25,
+          "to": 21
+        },
+        {
+          "from": 13,
+          "to": 21
+        },
+        {
+          "from": 51,
+          "to": 42
+        },
+        {
+          "from": 8,
+          "to": 6
+        },
+        {
+          "from": 42,
+          "to": 41
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 23543,
+      "elapsedMs": 1500,
+      "score": 302,
+      "pv": [
+        {
+          "from": 45,
+          "to": 51
+        },
+        {
+          "from": 64,
+          "to": 10
+        },
+        {
+          "from": 51,
+          "to": 48
+        },
+        {
+          "from": 63,
+          "to": 56
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 20,
+      "nodes": 2336900,
+      "score": 329,
+      "elapsedMs": 515,
+      "startupMs": 610,
+      "totalElapsedMs": 1125,
+      "pv": [
+        {
+          "from": 87,
+          "to": 71
+        },
+        {
+          "from": 51,
+          "to": 42
+        },
+        {
+          "from": 58,
+          "to": 49
+        },
+        {
+          "from": 40,
+          "to": 36
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 49,
+          "to": 40
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 40,
+          "to": 41
+        },
+        {
+          "from": 42,
+          "to": 78
+        },
+        {
+          "from": 62,
+          "to": 61
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 82,
+          "to": 19
+        },
+        {
+          "from": 0,
+          "to": 2
+        },
+        {
+          "from": 88,
+          "to": 77
+        },
+        {
+          "from": 35,
+          "to": 44
+        },
+        {
+          "from": 77,
+          "to": 58
+        },
+        {
+          "from": 33,
+          "to": 42
+        },
+        {
+          "from": 41,
+          "to": 32
+        },
+        {
+          "from": 44,
+          "to": 53
+        },
+        {
+          "from": 58,
+          "to": 39
+        },
+        {
+          "from": 42,
+          "to": 51
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 24309,
+      "elapsedMs": 1500,
+      "score": 332,
+      "pv": [
+        {
+          "from": 51,
+          "to": 48
+        },
+        {
+          "from": 58,
+          "to": 49
+        },
+        {
+          "from": 40,
+          "to": 37
+        },
+        {
+          "from": 64,
+          "to": 66
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 18,
+      "nodes": 2328384,
+      "score": 412,
+      "elapsedMs": 500,
+      "startupMs": 625,
+      "totalElapsedMs": 1125,
+      "pv": [
+        {
+          "from": 58,
+          "to": 49
+        },
+        {
+          "from": 40,
+          "to": 43
+        },
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 5,
+          "to": 13
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 6,
+          "to": 22
+        },
+        {
+          "from": 62,
+          "to": 57
+        },
+        {
+          "from": 48,
+          "to": 21
+        },
+        {
+          "from": 69,
+          "to": 50
+        },
+        {
+          "from": 43,
+          "to": 34
+        },
+        {
+          "from": 49,
+          "to": 40
+        },
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 70,
+          "to": 68
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 50,
+          "to": 33
+        },
+        {
+          "from": 8,
+          "to": 5
+        },
+        {
+          "from": 33,
+          "to": 40
+        },
+        {
+          "from": 34,
+          "to": 31
+        },
+        {
+          "from": 67,
+          "to": 31
+        },
+        {
+          "from": 24,
+          "to": 31
+        },
+        {
+          "from": 57,
+          "to": 30
+        },
+        {
+          "from": 31,
+          "to": 42
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 24394,
+      "elapsedMs": 1500,
+      "score": 294,
+      "pv": [
+        {
+          "from": 40,
+          "to": 43
+        },
+        {
+          "from": 70,
+          "to": 7
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 62,
+          "to": 35
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 19,
+      "nodes": 2234081,
+      "score": 406,
+      "elapsedMs": 500,
+      "startupMs": 609,
+      "totalElapsedMs": 1109,
+      "pv": [
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 5,
+          "to": 13
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 43,
+          "to": 34
+        },
+        {
+          "from": 82,
+          "to": 37
+        },
+        {
+          "from": 48,
+          "to": 21
+        },
+        {
+          "from": 69,
+          "to": 58
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 58,
+          "to": 51
+        },
+        {
+          "from": 34,
+          "to": 25
+        },
+        {
+          "from": 67,
+          "to": 31
+        },
+        {
+          "from": 21,
+          "to": 22
+        },
+        {
+          "from": 51,
+          "to": 32
+        },
+        {
+          "from": 25,
+          "to": 23
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 7,
+          "to": 26
+        },
+        {
+          "from": 32,
+          "to": 39
+        },
+        {
+          "from": 20,
+          "to": 31
+        },
+        {
+          "from": 70,
+          "to": 67
+        },
+        {
+          "from": 31,
+          "to": 42
+        },
+        {
+          "from": 39,
+          "to": 28
+        },
+        {
+          "from": 23,
+          "to": 14
+        },
+        {
+          "from": 47,
+          "to": 38
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 62,
+          "to": 57
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 28,
+          "to": 21
+        },
+        {
+          "from": 4,
+          "to": 5
+        },
+        {
+          "from": 67,
+          "to": 68
+        },
+        {
+          "from": 14,
+          "to": 86
+        },
+        {
+          "from": 85,
+          "to": 86
+        },
+        {
+          "from": 13,
+          "to": 21
+        },
+        {
+          "from": 57,
+          "to": 21
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 25073,
+      "elapsedMs": 1500,
+      "score": 284,
+      "pv": [
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 62,
+          "to": 57
+        },
+        {
+          "from": 43,
+          "to": 52
+        },
+        {
+          "from": 64,
+          "to": 10
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 23,
+      "nodes": 2402284,
+      "score": 523,
+      "elapsedMs": 515,
+      "startupMs": 625,
+      "totalElapsedMs": 1140,
+      "pv": [
+        {
+          "from": 62,
+          "to": 57
+        },
+        {
+          "from": 5,
+          "to": 13
+        },
+        {
+          "from": 57,
+          "to": 48
+        },
+        {
+          "from": 6,
+          "to": 22
+        },
+        {
+          "from": 69,
+          "to": 50
+        },
+        {
+          "from": 43,
+          "to": 52
+        },
+        {
+          "from": 48,
+          "to": 57
+        },
+        {
+          "from": 33,
+          "to": 42
+        },
+        {
+          "from": 50,
+          "to": 33
+        },
+        {
+          "from": 1,
+          "to": 18
+        },
+        {
+          "from": 70,
+          "to": 67
+        },
+        {
+          "from": 8,
+          "to": 5
+        },
+        {
+          "from": 64,
+          "to": 19
+        },
+        {
+          "from": 52,
+          "to": 88
+        },
+        {
+          "from": 71,
+          "to": 87
+        },
+        {
+          "from": 5,
+          "to": 32
+        },
+        {
+          "from": 57,
+          "to": 61
+        },
+        {
+          "from": 88,
+          "to": 89
+        },
+        {
+          "from": 33,
+          "to": 26
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 30425,
+      "elapsedMs": 1500,
+      "score": 258,
+      "pv": [
+        {
+          "from": 43,
+          "to": 52
+        },
+        {
+          "from": 64,
+          "to": 10
+        },
+        {
+          "from": 24,
+          "to": 13
+        },
+        {
+          "from": 49,
+          "to": 40
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 20,
+      "nodes": 2327534,
+      "score": 589,
+      "elapsedMs": 500,
+      "startupMs": 610,
+      "totalElapsedMs": 1110,
+      "pv": [
+        {
+          "from": 49,
+          "to": 40
+        },
+        {
+          "from": 52,
+          "to": 16
+        },
+        {
+          "from": 57,
+          "to": 48
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 5,
+          "to": 13
+        },
+        {
+          "from": 82,
+          "to": 37
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 37,
+          "to": 38
+        },
+        {
+          "from": 6,
+          "to": 22
+        },
+        {
+          "from": 38,
+          "to": 40
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 47,
+          "to": 38
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 29114,
+      "elapsedMs": 1500,
+      "score": 14,
+      "pv": [
+        {
+          "from": 48,
+          "to": 49
+        },
+        {
+          "from": 57,
+          "to": 58
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 69,
+          "to": 52
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 22,
+      "nodes": 2326044,
+      "score": 633,
+      "elapsedMs": 500,
+      "startupMs": 609,
+      "totalElapsedMs": 1109,
+      "pv": [
+        {
+          "from": 85,
+          "to": 84
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 69,
+          "to": 52
+        },
+        {
+          "from": 33,
+          "to": 42
+        },
+        {
+          "from": 57,
+          "to": 48
+        },
+        {
+          "from": 42,
+          "to": 51
+        },
+        {
+          "from": 52,
+          "to": 33
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 51,
+          "to": 60
+        },
+        {
+          "from": 69,
+          "to": 87
+        },
+        {
+          "from": 49,
+          "to": 58
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 82,
+          "to": 55
+        },
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 55,
+          "to": 58
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 29730,
+      "elapsedMs": 1500,
+      "score": 92,
+      "pv": [
+        {
+          "from": 52,
+          "to": 47
+        },
+        {
+          "from": 57,
+          "to": 3
+        },
+        {
+          "from": 4,
+          "to": 13
+        },
+        {
+          "from": 40,
+          "to": 31
+        },
+        {
+          "from": 24,
+          "to": 31
+        },
+        {
+          "from": 3,
+          "to": 5
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 26,
+      "nodes": 2228315,
+      "score": 829,
+      "elapsedMs": 500,
+      "startupMs": 641,
+      "totalElapsedMs": 1141,
+      "pv": [
+        {
+          "from": 57,
+          "to": 3
+        },
+        {
+          "from": 4,
+          "to": 13
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 0,
+          "to": 9
+        },
+        {
+          "from": 70,
+          "to": 16
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 16,
+          "to": 9
+        },
+        {
+          "from": 20,
+          "to": 3
+        },
+        {
+          "from": 82,
+          "to": 10
+        },
+        {
+          "from": 13,
+          "to": 4
+        },
+        {
+          "from": 10,
+          "to": 12
+        },
+        {
+          "from": 5,
+          "to": 13
+        },
+        {
+          "from": 9,
+          "to": 13
+        },
+        {
+          "from": 47,
+          "to": 48
+        },
+        {
+          "from": 12,
+          "to": 48
+        },
+        {
+          "from": 3,
+          "to": 20
+        },
+        {
+          "from": 13,
+          "to": 11
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 69,
+          "to": 50
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 48,
+          "to": 3
+        },
+        {
+          "from": 4,
+          "to": 13
+        },
+        {
+          "from": 50,
+          "to": 43
+        },
+        {
+          "from": 24,
+          "to": 31
+        },
+        {
+          "from": 43,
+          "to": 32
+        },
+        {
+          "from": 13,
+          "to": 14
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 5,
+      "nodes": 26271,
+      "elapsedMs": 1500,
+      "score": -44,
+      "pv": [
+        {
+          "from": 4,
+          "to": 13
+        },
+        {
+          "from": 3,
+          "to": 12
+        },
+        {
+          "from": 13,
+          "to": 4
+        },
+        {
+          "from": 12,
+          "to": 10
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 64,
+          "to": 1
+        },
+        {
+          "from": 2,
+          "to": 22
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 28,
+      "nodes": 2198299,
+      "score": 845,
+      "elapsedMs": 500,
+      "startupMs": 641,
+      "totalElapsedMs": 1141,
+      "pv": [
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 0,
+          "to": 9
+        },
+        {
+          "from": 70,
+          "to": 16
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 16,
+          "to": 9
+        },
+        {
+          "from": 20,
+          "to": 3
+        },
+        {
+          "from": 82,
+          "to": 10
+        },
+        {
+          "from": 13,
+          "to": 4
+        },
+        {
+          "from": 10,
+          "to": 12
+        },
+        {
+          "from": 47,
+          "to": 48
+        },
+        {
+          "from": 12,
+          "to": 48
+        },
+        {
+          "from": 3,
+          "to": 20
+        },
+        {
+          "from": 9,
+          "to": 0
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 63,
+          "to": 56
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 40,
+          "to": 31
+        },
+        {
+          "from": 24,
+          "to": 31
+        },
+        {
+          "from": 48,
+          "to": 3
+        },
+        {
+          "from": 4,
+          "to": 13
+        },
+        {
+          "from": 3,
+          "to": 12
+        },
+        {
+          "from": 13,
+          "to": 4
+        },
+        {
+          "from": 56,
+          "to": 49
+        },
+        {
+          "from": 5,
+          "to": 13
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 3,
+      "nodes": 23028,
+      "elapsedMs": 1500,
+      "score": 159,
+      "pv": [
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 82,
+          "to": 10
+        },
+        {
+          "from": 13,
+          "to": 22
+        },
+        {
+          "from": 67,
+          "to": 40
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 128,
+      "nodes": 32777,
+      "score": 99996,
+      "elapsedMs": 0,
+      "startupMs": 641,
+      "totalElapsedMs": 641,
+      "pv": [
+        {
+          "from": 82,
+          "to": 10
+        },
+        {
+          "from": 13,
+          "to": 22
+        },
+        {
+          "from": 3,
+          "to": 21
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 25212,
+      "elapsedMs": 1500,
+      "score": -99998,
+      "pv": [
+        {
+          "from": 13,
+          "to": 22
+        },
+        {
+          "from": 3,
+          "to": 21
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 128,
+      "nodes": 35533,
+      "score": 99998,
+      "elapsedMs": 0,
+      "startupMs": 609,
+      "totalElapsedMs": 609,
+      "pv": [
+        {
+          "from": 3,
+          "to": 21
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    }
+  ],
+  "outcome": "win",
+  "elapsedSeconds": 42.85899999999674
+}

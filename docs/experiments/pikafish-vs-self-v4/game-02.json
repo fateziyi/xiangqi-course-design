@@ -1,0 +1,252 @@
+{
+  "index": 2,
+  "nativeSide": "red",
+  "prefixLength": 2,
+  "record": {
+    "format": "xiangqi-course-record",
+    "version": 2,
+    "ruleset": "course-v1",
+    "createdAt": "2026-10-12T18:21:43.127103+08:00",
+    "mode": "ai_ai",
+    "humanSide": null,
+    "redAI": {
+      "maxDepth": 128,
+      "timeLimitMs": 500,
+      "engine": "pikafish"
+    },
+    "blackAI": {
+      "maxDepth": 8,
+      "timeLimitMs": 1500
+    },
+    "moves": [
+      {
+        "from": 87,
+        "to": 71
+      },
+      {
+        "from": 25,
+        "to": 43
+      },
+      {
+        "from": 54,
+        "to": 45
+      },
+      {
+        "from": 19,
+        "to": 26
+      },
+      {
+        "from": 45,
+        "to": 36
+      },
+      {
+        "from": 26,
+        "to": 62
+      },
+      {
+        "from": 71,
+        "to": 87
+      },
+      {
+        "from": 62,
+        "to": 58
+      },
+      {
+        "from": 36,
+        "to": 27
+      },
+      {
+        "from": 43,
+        "to": 40
+      }
+    ],
+    "result": {
+      "winner": "black",
+      "reason": "checkmate"
+    }
+  },
+  "searches": [
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 6,
+      "score": 0,
+      "elapsedMs": 672,
+      "pv": [
+        {
+          "from": 54,
+          "to": 45
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 22015,
+      "elapsedMs": 1500,
+      "score": 43,
+      "pv": [
+        {
+          "from": 19,
+          "to": 26
+        },
+        {
+          "from": 70,
+          "to": 7
+        },
+        {
+          "from": 43,
+          "to": 40
+        },
+        {
+          "from": 64,
+          "to": 67
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 67,
+          "to": 40
+        },
+        {
+          "from": 31,
+          "to": 40
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 4,
+      "score": 0,
+      "elapsedMs": 687,
+      "pv": [
+        {
+          "from": 45,
+          "to": 36
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 26612,
+      "elapsedMs": 1500,
+      "score": 191,
+      "pv": [
+        {
+          "from": 26,
+          "to": 62
+        },
+        {
+          "from": 71,
+          "to": 87
+        },
+        {
+          "from": 43,
+          "to": 88
+        },
+        {
+          "from": 89,
+          "to": 62
+        },
+        {
+          "from": 27,
+          "to": 36
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 3,
+      "nodes": 4088,
+      "score": -286,
+      "elapsedMs": 672,
+      "pv": [
+        {
+          "from": 71,
+          "to": 87
+        },
+        {
+          "from": 62,
+          "to": 58
+        },
+        {
+          "from": 36,
+          "to": 27
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 26171,
+      "elapsedMs": 1500,
+      "score": 377,
+      "pv": [
+        {
+          "from": 62,
+          "to": 58
+        },
+        {
+          "from": 81,
+          "to": 45
+        },
+        {
+          "from": 43,
+          "to": 42
+        },
+        {
+          "from": 85,
+          "to": 76
+        },
+        {
+          "from": 42,
+          "to": 87
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 4,
+      "score": 0,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 36,
+          "to": 27
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 1,
+      "nodes": 153,
+      "elapsedMs": 16,
+      "score": 99999,
+      "pv": [
+        {
+          "from": 43,
+          "to": 40
+        }
+      ]
+    }
+  ],
+  "outcome": "loss",
+  "elapsedSeconds": 7.375
+}

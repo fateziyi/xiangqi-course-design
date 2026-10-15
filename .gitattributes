@@ -1,0 +1,9 @@
+# Preserve recorded experiment/source hashes and PowerShell encodings exactly.
+* -text
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.exe binary
+*.nnue binary
+*.zip binary
+third_party/pikafish/pikafish.nnue filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,2785 @@
+{
+  "recordSource": "samples/人机棋谱/象棋棋谱-2026-10-12T09-18-52.159Z.json",
+  "config": {
+    "maxDepth": 8,
+    "timeLimitMs": 1500
+  },
+  "oldHash": "69766916d4b226fffb54aa55d738bce975973e66f24a62dd1fc38113e6db932b",
+  "newHash": "7f41eb31720b78e5109aac620766a7886b424d8ed9447cd144ff8585aba66ca8",
+  "positions": [
+    {
+      "plyBefore": 1,
+      "played": {
+        "from": 19,
+        "to": 55
+      },
+      "old": {
+        "move": {
+          "from": 19,
+          "to": 55
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 8224,
+          "elapsedMs": 1500,
+          "score": 33,
+          "pv": [
+            {
+              "from": 19,
+              "to": 55
+            },
+            {
+              "from": 64,
+              "to": 1
+            },
+            {
+              "from": 0,
+              "to": 1
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 1,
+          "to": 20
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 23625,
+          "elapsedMs": 1500,
+          "score": -15,
+          "pv": [
+            {
+              "from": 1,
+              "to": 20
+            },
+            {
+              "from": 88,
+              "to": 69
+            },
+            {
+              "from": 7,
+              "to": 24
+            },
+            {
+              "from": 82,
+              "to": 65
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 3,
+      "played": {
+        "from": 1,
+        "to": 20
+      },
+      "old": {
+        "move": {
+          "from": 1,
+          "to": 20
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 7631,
+          "elapsedMs": 1500,
+          "score": 185,
+          "pv": [
+            {
+              "from": 1,
+              "to": 20
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 55,
+              "to": 58
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 1,
+          "to": 20
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 24376,
+          "elapsedMs": 1500,
+          "score": -11,
+          "pv": [
+            {
+              "from": 1,
+              "to": 20
+            },
+            {
+              "from": 54,
+              "to": 45
+            },
+            {
+              "from": 25,
+              "to": 24
+            },
+            {
+              "from": 64,
+              "to": 65
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 5,
+      "played": {
+        "from": 7,
+        "to": 24
+      },
+      "old": {
+        "move": {
+          "from": 7,
+          "to": 24
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 8257,
+          "elapsedMs": 1500,
+          "score": 195,
+          "pv": [
+            {
+              "from": 7,
+              "to": 24
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 55,
+              "to": 58
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 25,
+          "to": 22
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 25852,
+          "elapsedMs": 1500,
+          "score": -4,
+          "pv": [
+            {
+              "from": 25,
+              "to": 22
+            },
+            {
+              "from": 56,
+              "to": 47
+            },
+            {
+              "from": 7,
+              "to": 24
+            },
+            {
+              "from": 82,
+              "to": 65
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 7,
+      "played": {
+        "from": 8,
+        "to": 26
+      },
+      "old": {
+        "move": {
+          "from": 8,
+          "to": 26
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 7499,
+          "elapsedMs": 1500,
+          "score": 196,
+          "pv": [
+            {
+              "from": 8,
+              "to": 26
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 55,
+              "to": 58
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 8,
+          "to": 7
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 22513,
+          "elapsedMs": 1500,
+          "score": -128,
+          "pv": [
+            {
+              "from": 8,
+              "to": 7
+            },
+            {
+              "from": 64,
+              "to": 65
+            },
+            {
+              "from": 25,
+              "to": 61
+            },
+            {
+              "from": 65,
+              "to": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 9,
+      "played": {
+        "from": 33,
+        "to": 42
+      },
+      "old": {
+        "move": {
+          "from": 33,
+          "to": 42
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 7917,
+          "elapsedMs": 1500,
+          "score": 197,
+          "pv": [
+            {
+              "from": 33,
+              "to": 42
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 42,
+              "to": 51
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 29,
+          "to": 38
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 26789,
+          "elapsedMs": 1500,
+          "score": -122,
+          "pv": [
+            {
+              "from": 29,
+              "to": 38
+            },
+            {
+              "from": 34,
+              "to": 33
+            },
+            {
+              "from": 25,
+              "to": 61
+            },
+            {
+              "from": 64,
+              "to": 65
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 11,
+      "played": {
+        "from": 25,
+        "to": 61
+      },
+      "old": {
+        "move": {
+          "from": 25,
+          "to": 61
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 7641,
+          "elapsedMs": 1500,
+          "score": 206,
+          "pv": [
+            {
+              "from": 25,
+              "to": 61
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 42,
+              "to": 51
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 25,
+          "to": 61
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 23392,
+          "elapsedMs": 1500,
+          "score": -63,
+          "pv": [
+            {
+              "from": 25,
+              "to": 61
+            },
+            {
+              "from": 51,
+              "to": 42
+            },
+            {
+              "from": 61,
+              "to": 56
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 13,
+      "played": {
+        "from": 61,
+        "to": 60
+      },
+      "old": {
+        "move": {
+          "from": 55,
+          "to": 82
+        },
+        "search": {
+          "completedDepth": 2,
+          "nodes": 6026,
+          "elapsedMs": 1500,
+          "score": -43,
+          "pv": [
+            {
+              "from": 55,
+              "to": 82
+            },
+            {
+              "from": 81,
+              "to": 82
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 55,
+          "to": 82
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 19484,
+          "elapsedMs": 1500,
+          "score": 80,
+          "pv": [
+            {
+              "from": 55,
+              "to": 82
+            },
+            {
+              "from": 81,
+              "to": 82
+            },
+            {
+              "from": 42,
+              "to": 51
+            },
+            {
+              "from": 33,
+              "to": 51
+            },
+            {
+              "from": 61,
+              "to": 54
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 15,
+      "played": {
+        "from": 42,
+        "to": 51
+      },
+      "old": {
+        "move": {
+          "from": 42,
+          "to": 51
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5887,
+          "elapsedMs": 1500,
+          "score": 442,
+          "pv": [
+            {
+              "from": 42,
+              "to": 51
+            },
+            {
+              "from": 33,
+              "to": 51
+            },
+            {
+              "from": 55,
+              "to": 82
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 55,
+          "to": 46
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 18973,
+          "elapsedMs": 1500,
+          "score": 137,
+          "pv": [
+            {
+              "from": 55,
+              "to": 46
+            },
+            {
+              "from": 58,
+              "to": 49
+            },
+            {
+              "from": 46,
+              "to": 49
+            },
+            {
+              "from": 69,
+              "to": 58
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 17,
+      "played": {
+        "from": 29,
+        "to": 38
+      },
+      "old": {
+        "move": {
+          "from": 29,
+          "to": 38
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5748,
+          "elapsedMs": 1500,
+          "score": 215,
+          "pv": [
+            {
+              "from": 29,
+              "to": 38
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 38,
+              "to": 47
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 20,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 18072,
+          "elapsedMs": 1500,
+          "score": 15,
+          "pv": [
+            {
+              "from": 20,
+              "to": 13
+            },
+            {
+              "from": 51,
+              "to": 33
+            },
+            {
+              "from": 13,
+              "to": 30
+            },
+            {
+              "from": 67,
+              "to": 31
+            },
+            {
+              "from": 30,
+              "to": 47
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 19,
+      "played": {
+        "from": 2,
+        "to": 18
+      },
+      "old": {
+        "move": {
+          "from": 2,
+          "to": 18
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5502,
+          "elapsedMs": 1500,
+          "score": 4,
+          "pv": [
+            {
+              "from": 2,
+              "to": 18
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 18,
+              "to": 38
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 20,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 16724,
+          "elapsedMs": 1500,
+          "score": -198,
+          "pv": [
+            {
+              "from": 20,
+              "to": 13
+            },
+            {
+              "from": 82,
+              "to": 65
+            },
+            {
+              "from": 13,
+              "to": 32
+            },
+            {
+              "from": 51,
+              "to": 33
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 21,
+      "played": {
+        "from": 55,
+        "to": 56
+      },
+      "old": {
+        "move": {
+          "from": 55,
+          "to": 56
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5651,
+          "elapsedMs": 1500,
+          "score": 17,
+          "pv": [
+            {
+              "from": 55,
+              "to": 56
+            },
+            {
+              "from": 65,
+              "to": 66
+            },
+            {
+              "from": 18,
+              "to": 38
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 20,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 18074,
+          "elapsedMs": 1500,
+          "score": -192,
+          "pv": [
+            {
+              "from": 20,
+              "to": 13
+            },
+            {
+              "from": 38,
+              "to": 29
+            },
+            {
+              "from": 55,
+              "to": 57
+            },
+            {
+              "from": 69,
+              "to": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 23,
+      "played": {
+        "from": 24,
+        "to": 13
+      },
+      "old": {
+        "move": {
+          "from": 24,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 5938,
+          "elapsedMs": 1500,
+          "score": -473,
+          "pv": [
+            {
+              "from": 24,
+              "to": 13
+            },
+            {
+              "from": 65,
+              "to": 66
+            },
+            {
+              "from": 18,
+              "to": 38
+            },
+            {
+              "from": 63,
+              "to": 56
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 18,
+          "to": 38
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 20236,
+          "elapsedMs": 1500,
+          "score": -260,
+          "pv": [
+            {
+              "from": 18,
+              "to": 38
+            },
+            {
+              "from": 58,
+              "to": 49
+            },
+            {
+              "from": 56,
+              "to": 83
+            },
+            {
+              "from": 81,
+              "to": 83
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 25,
+      "played": {
+        "from": 13,
+        "to": 32
+      },
+      "old": {
+        "move": {
+          "from": 13,
+          "to": 32
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 5922,
+          "elapsedMs": 1500,
+          "score": -680,
+          "pv": [
+            {
+              "from": 13,
+              "to": 32
+            },
+            {
+              "from": 51,
+              "to": 6
+            },
+            {
+              "from": 56,
+              "to": 83
+            },
+            {
+              "from": 81,
+              "to": 83
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 13,
+          "to": 32
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 20749,
+          "elapsedMs": 1500,
+          "score": -462,
+          "pv": [
+            {
+              "from": 13,
+              "to": 32
+            },
+            {
+              "from": 51,
+              "to": 33
+            },
+            {
+              "from": 56,
+              "to": 83
+            },
+            {
+              "from": 81,
+              "to": 83
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 27,
+      "played": {
+        "from": 20,
+        "to": 13
+      },
+      "old": {
+        "move": {
+          "from": 20,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 6077,
+          "elapsedMs": 1500,
+          "score": -127,
+          "pv": [
+            {
+              "from": 20,
+              "to": 13
+            },
+            {
+              "from": 6,
+              "to": 7
+            },
+            {
+              "from": 56,
+              "to": 83
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 32,
+          "to": 25
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 19494,
+          "elapsedMs": 1500,
+          "score": -442,
+          "pv": [
+            {
+              "from": 32,
+              "to": 25
+            },
+            {
+              "from": 6,
+              "to": 51
+            },
+            {
+              "from": 25,
+              "to": 44
+            },
+            {
+              "from": 63,
+              "to": 56
+            },
+            {
+              "from": 44,
+              "to": 51
+            },
+            {
+              "from": 71,
+              "to": 51
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 29,
+      "played": {
+        "from": 27,
+        "to": 36
+      },
+      "old": {
+        "move": {
+          "from": 27,
+          "to": 36
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 6044,
+          "elapsedMs": 1500,
+          "score": -519,
+          "pv": [
+            {
+              "from": 27,
+              "to": 36
+            },
+            {
+              "from": 67,
+              "to": 31
+            },
+            {
+              "from": 26,
+              "to": 22
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 31,
+          "to": 40
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 24218,
+          "elapsedMs": 1500,
+          "score": -664,
+          "pv": [
+            {
+              "from": 31,
+              "to": 40
+            },
+            {
+              "from": 63,
+              "to": 56
+            },
+            {
+              "from": 60,
+              "to": 56
+            },
+            {
+              "from": 67,
+              "to": 40
+            },
+            {
+              "from": 26,
+              "to": 22
+            },
+            {
+              "from": 40,
+              "to": 13
+            },
+            {
+              "from": 32,
+              "to": 13
+            },
+            {
+              "from": 33,
+              "to": 35
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 31,
+      "played": {
+        "from": 13,
+        "to": 24
+      },
+      "old": {
+        "move": {
+          "from": 13,
+          "to": 24
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 5598,
+          "elapsedMs": 1500,
+          "score": -1020,
+          "pv": [
+            {
+              "from": 13,
+              "to": 24
+            },
+            {
+              "from": 33,
+              "to": 32
+            },
+            {
+              "from": 24,
+              "to": 31
+            },
+            {
+              "from": 32,
+              "to": 31
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 26,
+          "to": 22
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 18122,
+          "elapsedMs": 1500,
+          "score": -1000,
+          "pv": [
+            {
+              "from": 26,
+              "to": 22
+            },
+            {
+              "from": 63,
+              "to": 56
+            },
+            {
+              "from": 22,
+              "to": 31
+            },
+            {
+              "from": 33,
+              "to": 60
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 33,
+      "played": {
+        "from": 24,
+        "to": 43
+      },
+      "old": {
+        "move": {
+          "from": 24,
+          "to": 43
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5376,
+          "elapsedMs": 1500,
+          "score": -739,
+          "pv": [
+            {
+              "from": 24,
+              "to": 43
+            },
+            {
+              "from": 32,
+              "to": 14
+            },
+            {
+              "from": 56,
+              "to": 83
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 56,
+          "to": 57
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 18246,
+          "elapsedMs": 1500,
+          "score": -997,
+          "pv": [
+            {
+              "from": 56,
+              "to": 57
+            },
+            {
+              "from": 31,
+              "to": 22
+            },
+            {
+              "from": 24,
+              "to": 43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 35,
+      "played": {
+        "from": 56,
+        "to": 47
+      },
+      "old": {
+        "move": {
+          "from": 56,
+          "to": 47
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 4886,
+          "elapsedMs": 1500,
+          "score": -893,
+          "pv": [
+            {
+              "from": 56,
+              "to": 47
+            },
+            {
+              "from": 65,
+              "to": 67
+            },
+            {
+              "from": 43,
+              "to": 62
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 56,
+          "to": 47
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 15661,
+          "elapsedMs": 1500,
+          "score": -1001,
+          "pv": [
+            {
+              "from": 56,
+              "to": 47
+            },
+            {
+              "from": 14,
+              "to": 59
+            },
+            {
+              "from": 26,
+              "to": 21
+            },
+            {
+              "from": 69,
+              "to": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 37,
+      "played": {
+        "from": 60,
+        "to": 54
+      },
+      "old": {
+        "move": {
+          "from": 60,
+          "to": 54
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5283,
+          "elapsedMs": 1500,
+          "score": -888,
+          "pv": [
+            {
+              "from": 60,
+              "to": 54
+            },
+            {
+              "from": 31,
+              "to": 30
+            },
+            {
+              "from": 26,
+              "to": 22
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 60,
+          "to": 54
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 16641,
+          "elapsedMs": 1500,
+          "score": -916,
+          "pv": [
+            {
+              "from": 60,
+              "to": 54
+            },
+            {
+              "from": 31,
+              "to": 30
+            },
+            {
+              "from": 26,
+              "to": 22
+            },
+            {
+              "from": 67,
+              "to": 22
+            },
+            {
+              "from": 54,
+              "to": 81
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 39,
+      "played": {
+        "from": 43,
+        "to": 60
+      },
+      "old": {
+        "move": {
+          "from": 43,
+          "to": 60
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5367,
+          "elapsedMs": 1500,
+          "score": -885,
+          "pv": [
+            {
+              "from": 43,
+              "to": 60
+            },
+            {
+              "from": 81,
+              "to": 54
+            },
+            {
+              "from": 60,
+              "to": 67
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 26,
+          "to": 24
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 17102,
+          "elapsedMs": 1500,
+          "score": -915,
+          "pv": [
+            {
+              "from": 26,
+              "to": 24
+            },
+            {
+              "from": 31,
+              "to": 30
+            },
+            {
+              "from": 3,
+              "to": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 41,
+      "played": {
+        "from": 60,
+        "to": 67
+      },
+      "old": {
+        "move": {
+          "from": 60,
+          "to": 67
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5407,
+          "elapsedMs": 1500,
+          "score": -795,
+          "pv": [
+            {
+              "from": 60,
+              "to": 67
+            },
+            {
+              "from": 83,
+              "to": 67
+            },
+            {
+              "from": 54,
+              "to": 62
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 60,
+          "to": 67
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 15404,
+          "elapsedMs": 1500,
+          "score": -1046,
+          "pv": [
+            {
+              "from": 60,
+              "to": 67
+            },
+            {
+              "from": 83,
+              "to": 67
+            },
+            {
+              "from": 54,
+              "to": 57
+            },
+            {
+              "from": 81,
+              "to": 36
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 43,
+      "played": {
+        "from": 54,
+        "to": 45
+      },
+      "old": {
+        "move": {
+          "from": 54,
+          "to": 45
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5824,
+          "elapsedMs": 1500,
+          "score": -891,
+          "pv": [
+            {
+              "from": 54,
+              "to": 45
+            },
+            {
+              "from": 49,
+              "to": 56
+            },
+            {
+              "from": 47,
+              "to": 49
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 54,
+          "to": 57
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 17841,
+          "elapsedMs": 1500,
+          "score": -1037,
+          "pv": [
+            {
+              "from": 54,
+              "to": 57
+            },
+            {
+              "from": 81,
+              "to": 36
+            },
+            {
+              "from": 26,
+              "to": 21
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 45,
+      "played": {
+        "from": 26,
+        "to": 21
+      },
+      "old": {
+        "move": {
+          "from": 26,
+          "to": 21
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5776,
+          "elapsedMs": 1500,
+          "score": -1091,
+          "pv": [
+            {
+              "from": 26,
+              "to": 21
+            },
+            {
+              "from": 30,
+              "to": 47
+            },
+            {
+              "from": 21,
+              "to": 84
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 26,
+          "to": 21
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 17877,
+          "elapsedMs": 1500,
+          "score": -1393,
+          "pv": [
+            {
+              "from": 26,
+              "to": 21
+            },
+            {
+              "from": 67,
+              "to": 47
+            },
+            {
+              "from": 35,
+              "to": 44
+            },
+            {
+              "from": 69,
+              "to": 50
+            },
+            {
+              "from": 45,
+              "to": 50
+            },
+            {
+              "from": 14,
+              "to": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 47,
+      "played": {
+        "from": 0,
+        "to": 2
+      },
+      "old": {
+        "move": {
+          "from": 0,
+          "to": 2
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5785,
+          "elapsedMs": 1500,
+          "score": -1206,
+          "pv": [
+            {
+              "from": 0,
+              "to": 2
+            },
+            {
+              "from": 47,
+              "to": 36
+            },
+            {
+              "from": 21,
+              "to": 84
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 18,
+          "to": 38
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 18097,
+          "elapsedMs": 1500,
+          "score": -1396,
+          "pv": [
+            {
+              "from": 18,
+              "to": 38
+            },
+            {
+              "from": 47,
+              "to": 40
+            },
+            {
+              "from": 45,
+              "to": 48
+            },
+            {
+              "from": 69,
+              "to": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 49,
+      "played": {
+        "from": 21,
+        "to": 24
+      },
+      "old": {
+        "move": {
+          "from": 21,
+          "to": 24
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5879,
+          "elapsedMs": 1500,
+          "score": -1037,
+          "pv": [
+            {
+              "from": 21,
+              "to": 24
+            },
+            {
+              "from": 47,
+              "to": 36
+            },
+            {
+              "from": 24,
+              "to": 69
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 21,
+          "to": 24
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 16948,
+          "elapsedMs": 1500,
+          "score": -1383,
+          "pv": [
+            {
+              "from": 21,
+              "to": 24
+            },
+            {
+              "from": 69,
+              "to": 50
+            },
+            {
+              "from": 2,
+              "to": 38
+            },
+            {
+              "from": 62,
+              "to": 53
+            },
+            {
+              "from": 45,
+              "to": 50
+            },
+            {
+              "from": 14,
+              "to": 50
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 51,
+      "played": {
+        "from": 24,
+        "to": 69
+      },
+      "old": {
+        "move": {
+          "from": 24,
+          "to": 69
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5668,
+          "elapsedMs": 1500,
+          "score": -1237,
+          "pv": [
+            {
+              "from": 24,
+              "to": 69
+            },
+            {
+              "from": 81,
+              "to": 45
+            },
+            {
+              "from": 69,
+              "to": 67
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 24,
+          "to": 69
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 16668,
+          "elapsedMs": 1500,
+          "score": -1322,
+          "pv": [
+            {
+              "from": 24,
+              "to": 69
+            },
+            {
+              "from": 81,
+              "to": 45
+            },
+            {
+              "from": 69,
+              "to": 71
+            },
+            {
+              "from": 36,
+              "to": 19
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 53,
+      "played": {
+        "from": 45,
+        "to": 48
+      },
+      "old": {
+        "move": {
+          "from": 45,
+          "to": 48
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5440,
+          "elapsedMs": 1500,
+          "score": -806,
+          "pv": [
+            {
+              "from": 45,
+              "to": 48
+            },
+            {
+              "from": 67,
+              "to": 51
+            },
+            {
+              "from": 69,
+              "to": 87
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 45,
+          "to": 48
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 17741,
+          "elapsedMs": 1500,
+          "score": -1112,
+          "pv": [
+            {
+              "from": 45,
+              "to": 48
+            },
+            {
+              "from": 36,
+              "to": 19
+            },
+            {
+              "from": 2,
+              "to": 56
+            },
+            {
+              "from": 81,
+              "to": 18
+            },
+            {
+              "from": 56,
+              "to": 58
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 55,
+      "played": {
+        "from": 48,
+        "to": 57
+      },
+      "old": {
+        "move": {
+          "from": 48,
+          "to": 57
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 5750,
+          "elapsedMs": 1500,
+          "score": -811,
+          "pv": [
+            {
+              "from": 48,
+              "to": 57
+            },
+            {
+              "from": 67,
+              "to": 51
+            },
+            {
+              "from": 69,
+              "to": 87
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 48,
+          "to": 66
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 18816,
+          "elapsedMs": 1500,
+          "score": -1109,
+          "pv": [
+            {
+              "from": 48,
+              "to": 66
+            },
+            {
+              "from": 36,
+              "to": 19
+            },
+            {
+              "from": 2,
+              "to": 56
+            },
+            {
+              "from": 45,
+              "to": 18
+            },
+            {
+              "from": 56,
+              "to": 58
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 57,
+      "played": {
+        "from": 69,
+        "to": 6
+      },
+      "old": {
+        "move": {
+          "from": 69,
+          "to": 6
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 6310,
+          "elapsedMs": 1500,
+          "score": -1321,
+          "pv": [
+            {
+              "from": 69,
+              "to": 6
+            },
+            {
+              "from": 36,
+              "to": 19
+            },
+            {
+              "from": 2,
+              "to": 74
+            },
+            {
+              "from": 14,
+              "to": 5
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 69,
+          "to": 6
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 18590,
+          "elapsedMs": 1500,
+          "score": -1067,
+          "pv": [
+            {
+              "from": 69,
+              "to": 6
+            },
+            {
+              "from": 36,
+              "to": 29
+            },
+            {
+              "from": 2,
+              "to": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 59,
+      "played": {
+        "from": 57,
+        "to": 62
+      },
+      "old": {
+        "move": {
+          "from": 57,
+          "to": 62
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 6114,
+          "elapsedMs": 1500,
+          "score": -950,
+          "pv": [
+            {
+              "from": 57,
+              "to": 62
+            },
+            {
+              "from": 23,
+              "to": 22
+            },
+            {
+              "from": 3,
+              "to": 13
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 2,
+          "to": 38
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 18835,
+          "elapsedMs": 1500,
+          "score": -1746,
+          "pv": [
+            {
+              "from": 2,
+              "to": 38
+            },
+            {
+              "from": 23,
+              "to": 22
+            },
+            {
+              "from": 3,
+              "to": 13
+            },
+            {
+              "from": 22,
+              "to": 24
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 24,
+              "to": 6
+            },
+            {
+              "from": 38,
+              "to": 36
+            },
+            {
+              "from": 14,
+              "to": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 61,
+      "played": {
+        "from": 3,
+        "to": 13
+      },
+      "old": {
+        "move": {
+          "from": 3,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 6388,
+          "elapsedMs": 1500,
+          "score": -1854,
+          "pv": [
+            {
+              "from": 3,
+              "to": 13
+            },
+            {
+              "from": 22,
+              "to": 20
+            },
+            {
+              "from": 13,
+              "to": 3
+            },
+            {
+              "from": 20,
+              "to": 2
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 3,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 21306,
+          "elapsedMs": 1500,
+          "score": -1869,
+          "pv": [
+            {
+              "from": 3,
+              "to": 13
+            },
+            {
+              "from": 22,
+              "to": 24
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 24,
+              "to": 6
+            },
+            {
+              "from": 3,
+              "to": 12
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 63,
+      "played": {
+        "from": 4,
+        "to": 3
+      },
+      "old": {
+        "move": {
+          "from": 4,
+          "to": 3
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 5997,
+          "elapsedMs": 1500,
+          "score": -2123,
+          "pv": [
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 24,
+              "to": 6
+            },
+            {
+              "from": 2,
+              "to": 74
+            },
+            {
+              "from": 6,
+              "to": 5
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 4,
+          "to": 3
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 18405,
+          "elapsedMs": 1500,
+          "score": -2092,
+          "pv": [
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 24,
+              "to": 6
+            },
+            {
+              "from": 2,
+              "to": 20
+            },
+            {
+              "from": 36,
+              "to": 29
+            },
+            {
+              "from": 20,
+              "to": 22
+            },
+            {
+              "from": 31,
+              "to": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 65,
+      "played": {
+        "from": 2,
+        "to": 11
+      },
+      "old": {
+        "move": {
+          "from": 2,
+          "to": 65
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 6882,
+          "elapsedMs": 1500,
+          "score": -1797,
+          "pv": [
+            {
+              "from": 2,
+              "to": 65
+            },
+            {
+              "from": 14,
+              "to": 13
+            },
+            {
+              "from": 65,
+              "to": 67
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 2,
+          "to": 20
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 18656,
+          "elapsedMs": 1500,
+          "score": -2098,
+          "pv": [
+            {
+              "from": 2,
+              "to": 20
+            },
+            {
+              "from": 14,
+              "to": 13
+            },
+            {
+              "from": 20,
+              "to": 23
+            },
+            {
+              "from": 36,
+              "to": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 67,
+      "played": {
+        "from": 11,
+        "to": 65
+      },
+      "old": {
+        "move": {
+          "from": 11,
+          "to": 65
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 6567,
+          "elapsedMs": 1500,
+          "score": -1829,
+          "pv": [
+            {
+              "from": 11,
+              "to": 65
+            },
+            {
+              "from": 49,
+              "to": 48
+            },
+            {
+              "from": 3,
+              "to": 4
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 62,
+          "to": 44
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 19607,
+          "elapsedMs": 1500,
+          "score": -2086,
+          "pv": [
+            {
+              "from": 62,
+              "to": 44
+            },
+            {
+              "from": 36,
+              "to": 29
+            },
+            {
+              "from": 44,
+              "to": 40
+            },
+            {
+              "from": 49,
+              "to": 13
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 69,
+      "played": {
+        "from": 3,
+        "to": 4
+      },
+      "old": {
+        "move": {
+          "from": 3,
+          "to": 4
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 6841,
+          "elapsedMs": 1500,
+          "score": -2119,
+          "pv": [
+            {
+              "from": 3,
+              "to": 4
+            },
+            {
+              "from": 48,
+              "to": 49
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 6,
+              "to": 5
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 3,
+          "to": 4
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 19001,
+          "elapsedMs": 1500,
+          "score": -2321,
+          "pv": [
+            {
+              "from": 3,
+              "to": 4
+            },
+            {
+              "from": 36,
+              "to": 29
+            },
+            {
+              "from": 65,
+              "to": 29
+            },
+            {
+              "from": 48,
+              "to": 49
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 30,
+              "to": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 71,
+      "played": {
+        "from": 62,
+        "to": 44
+      },
+      "old": {
+        "move": {
+          "from": 62,
+          "to": 44
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 6412,
+          "elapsedMs": 1500,
+          "score": -1838,
+          "pv": [
+            {
+              "from": 62,
+              "to": 44
+            },
+            {
+              "from": 48,
+              "to": 49
+            },
+            {
+              "from": 44,
+              "to": 40
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 65,
+          "to": 67
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 21125,
+          "elapsedMs": 1500,
+          "score": -2547,
+          "pv": [
+            {
+              "from": 65,
+              "to": 67
+            },
+            {
+              "from": 87,
+              "to": 67
+            },
+            {
+              "from": 62,
+              "to": 89
+            },
+            {
+              "from": 67,
+              "to": 87
+            },
+            {
+              "from": 35,
+              "to": 44
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 73,
+      "played": {
+        "from": 44,
+        "to": 40
+      },
+      "old": {
+        "move": {
+          "from": 44,
+          "to": 40
+        },
+        "search": {
+          "completedDepth": 3,
+          "nodes": 6816,
+          "elapsedMs": 1500,
+          "score": -1579,
+          "pv": [
+            {
+              "from": 44,
+              "to": 40
+            },
+            {
+              "from": 19,
+              "to": 12
+            },
+            {
+              "from": 65,
+              "to": 67
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 65,
+          "to": 20
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 20396,
+          "elapsedMs": 1500,
+          "score": -1848,
+          "pv": [
+            {
+              "from": 65,
+              "to": 20
+            },
+            {
+              "from": 48,
+              "to": 49
+            },
+            {
+              "from": 44,
+              "to": 40
+            },
+            {
+              "from": 31,
+              "to": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 75,
+      "played": {
+        "from": 65,
+        "to": 67
+      },
+      "old": {
+        "move": {
+          "from": 65,
+          "to": 67
+        },
+        "search": {
+          "completedDepth": 4,
+          "nodes": 6966,
+          "elapsedMs": 1500,
+          "score": -2609,
+          "pv": [
+            {
+              "from": 65,
+              "to": 67
+            },
+            {
+              "from": 87,
+              "to": 67
+            },
+            {
+              "from": 40,
+              "to": 67
+            },
+            {
+              "from": 22,
+              "to": 13
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 65,
+          "to": 67
+        },
+        "search": {
+          "completedDepth": 7,
+          "nodes": 26189,
+          "elapsedMs": 1500,
+          "score": -99994,
+          "pv": [
+            {
+              "from": 65,
+              "to": 67
+            },
+            {
+              "from": 87,
+              "to": 67
+            },
+            {
+              "from": 40,
+              "to": 67
+            },
+            {
+              "from": 14,
+              "to": 13
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 6,
+              "to": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 77,
+      "played": {
+        "from": 40,
+        "to": 67
+      },
+      "old": {
+        "move": {
+          "from": 40,
+          "to": 67
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 9246,
+          "elapsedMs": 1500,
+          "score": -99996,
+          "pv": [
+            {
+              "from": 40,
+              "to": 67
+            },
+            {
+              "from": 14,
+              "to": 13
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 6,
+              "to": 5
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 40,
+          "to": 67
+        },
+        "search": {
+          "completedDepth": 6,
+          "nodes": 28414,
+          "elapsedMs": 1500,
+          "score": -99996,
+          "pv": [
+            {
+              "from": 40,
+              "to": 67
+            },
+            {
+              "from": 14,
+              "to": 13
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 6,
+              "to": 5
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 79,
+      "played": {
+        "from": 67,
+        "to": 13
+      },
+      "old": {
+        "move": {
+          "from": 67,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 10899,
+          "elapsedMs": 1500,
+          "score": -2816,
+          "pv": [
+            {
+              "from": 67,
+              "to": 13
+            },
+            {
+              "from": 48,
+              "to": 49
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 14,
+              "to": 13
+            },
+            {
+              "from": 35,
+              "to": 44
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 67,
+          "to": 13
+        },
+        "search": {
+          "completedDepth": 6,
+          "nodes": 24095,
+          "elapsedMs": 1500,
+          "score": -99994,
+          "pv": [
+            {
+              "from": 67,
+              "to": 13
+            },
+            {
+              "from": 48,
+              "to": 49
+            },
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 14,
+              "to": 5
+            },
+            {
+              "from": 13,
+              "to": 4
+            },
+            {
+              "from": 5,
+              "to": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 81,
+      "played": {
+        "from": 4,
+        "to": 3
+      },
+      "old": {
+        "move": {
+          "from": 4,
+          "to": 3
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 9836,
+          "elapsedMs": 1500,
+          "score": -99996,
+          "pv": [
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 14,
+              "to": 13
+            },
+            {
+              "from": 18,
+              "to": 2
+            },
+            {
+              "from": 6,
+              "to": 5
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 4,
+          "to": 3
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 26184,
+          "elapsedMs": 1500,
+          "score": -99996,
+          "pv": [
+            {
+              "from": 4,
+              "to": 3
+            },
+            {
+              "from": 14,
+              "to": 5
+            },
+            {
+              "from": 13,
+              "to": 4
+            },
+            {
+              "from": 5,
+              "to": 4
+            }
+          ]
+        }
+      }
+    },
+    {
+      "plyBefore": 83,
+      "played": {
+        "from": 13,
+        "to": 4
+      },
+      "old": {
+        "move": {
+          "from": 13,
+          "to": 4
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 12721,
+          "elapsedMs": 1500,
+          "score": -99998,
+          "pv": [
+            {
+              "from": 13,
+              "to": 4
+            },
+            {
+              "from": 14,
+              "to": 12
+            }
+          ]
+        }
+      },
+      "new": {
+        "move": {
+          "from": 13,
+          "to": 4
+        },
+        "search": {
+          "completedDepth": 5,
+          "nodes": 26883,
+          "elapsedMs": 1500,
+          "score": -99998,
+          "pv": [
+            {
+              "from": 13,
+              "to": 4
+            },
+            {
+              "from": 14,
+              "to": 12
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "microbenchmark": {
+    "v3_moves": {
+      "medianMs": 90.05939999769907,
+      "runsMs": [
+        90.05939999769907,
+        88.96749999985332,
+        95.96379999857163
+      ]
+    },
+    "v4_moves": {
+      "medianMs": 45.957299997098744,
+      "runsMs": [
+        44.8458999999275,
+        45.957299997098744,
+        49.244699999690056
+      ]
+    },
+    "v3_evaluate": {
+      "medianMs": 5.525600001419662,
+      "runsMs": [
+        5.767599999671802,
+        5.525600001419662,
+        5.41729999895324
+      ]
+    },
+    "v4_evaluate": {
+      "medianMs": 20.01640000162297,
+      "runsMs": [
+        18.688600001041777,
+        22.229300000617513,
+        20.01640000162297
+      ]
+    }
+  },
+  "review": {
+    "positions": 42,
+    "changedFromPlayed": 23,
+    "medianV3Depth": 4.0,
+    "medianV4Depth": 4.0
+  },
+  "scope": "100 seeded legal boards, 500 calls per run, three repeats, concurrent game benchmarks on the same host. Not a human strength measurement."
+}

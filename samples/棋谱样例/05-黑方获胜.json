@@ -1,0 +1,134 @@
+{
+  "format": "xiangqi-course-record",
+  "version": 1,
+  "ruleset": "course-v1",
+  "createdAt": "2026-10-12T10:08:29.735888+08:00",
+  "mode": "ai_ai",
+  "humanSide": null,
+  "redAI": {
+    "maxDepth": 2,
+    "timeLimitMs": 500
+  },
+  "blackAI": {
+    "maxDepth": 4,
+    "timeLimitMs": 1500
+  },
+  "moves": [
+    {
+      "from": 64,
+      "to": 65
+    },
+    {
+      "from": 19,
+      "to": 73
+    },
+    {
+      "from": 88,
+      "to": 69
+    },
+    {
+      "from": 73,
+      "to": 64
+    },
+    {
+      "from": 70,
+      "to": 7
+    },
+    {
+      "from": 64,
+      "to": 69
+    },
+    {
+      "from": 7,
+      "to": 16
+    },
+    {
+      "from": 0,
+      "to": 9
+    },
+    {
+      "from": 65,
+      "to": 29
+    },
+    {
+      "from": 9,
+      "to": 16
+    },
+    {
+      "from": 82,
+      "to": 65
+    },
+    {
+      "from": 25,
+      "to": 88
+    },
+    {
+      "from": 65,
+      "to": 76
+    },
+    {
+      "from": 69,
+      "to": 78
+    },
+    {
+      "from": 54,
+      "to": 45
+    },
+    {
+      "from": 1,
+      "to": 18
+    },
+    {
+      "from": 29,
+      "to": 30
+    },
+    {
+      "from": 18,
+      "to": 11
+    },
+    {
+      "from": 30,
+      "to": 21
+    },
+    {
+      "from": 8,
+      "to": 26
+    },
+    {
+      "from": 21,
+      "to": 39
+    },
+    {
+      "from": 26,
+      "to": 23
+    },
+    {
+      "from": 76,
+      "to": 57
+    },
+    {
+      "from": 23,
+      "to": 86
+    },
+    {
+      "from": 85,
+      "to": 76
+    },
+    {
+      "from": 88,
+      "to": 79
+    },
+    {
+      "from": 76,
+      "to": 67
+    },
+    {
+      "from": 16,
+      "to": 70
+    }
+  ],
+  "result": {
+    "winner": "black",
+    "reason": "checkmate"
+  }
+}

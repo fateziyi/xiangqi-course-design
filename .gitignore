@@ -1,0 +1,15 @@
+.venv/
+.venv.backup-*/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.runtime/
+docs/experiments/running.json
+.env
+.env.*
+!.env.example
+*.log
+# Original course handouts and group lists stay local.
+/2-题目.pdf
+/3-分组与分工.docx

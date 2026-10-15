@@ -1,0 +1,1559 @@
+{
+  "index": 0,
+  "nativeSide": "red",
+  "prefixLength": 0,
+  "record": {
+    "format": "xiangqi-course-record",
+    "version": 2,
+    "ruleset": "course-v1",
+    "createdAt": "2026-10-12T18:21:01.946654+08:00",
+    "mode": "ai_ai",
+    "humanSide": null,
+    "redAI": {
+      "maxDepth": 128,
+      "timeLimitMs": 500,
+      "engine": "pikafish"
+    },
+    "blackAI": {
+      "maxDepth": 8,
+      "timeLimitMs": 1500
+    },
+    "moves": [
+      {
+        "from": 64,
+        "to": 67
+      },
+      {
+        "from": 7,
+        "to": 24
+      },
+      {
+        "from": 82,
+        "to": 65
+      },
+      {
+        "from": 19,
+        "to": 20
+      },
+      {
+        "from": 54,
+        "to": 45
+      },
+      {
+        "from": 20,
+        "to": 56
+      },
+      {
+        "from": 45,
+        "to": 36
+      },
+      {
+        "from": 27,
+        "to": 36
+      },
+      {
+        "from": 88,
+        "to": 69
+      },
+      {
+        "from": 36,
+        "to": 45
+      },
+      {
+        "from": 58,
+        "to": 49
+      },
+      {
+        "from": 25,
+        "to": 52
+      },
+      {
+        "from": 49,
+        "to": 40
+      },
+      {
+        "from": 52,
+        "to": 49
+      },
+      {
+        "from": 65,
+        "to": 58
+      },
+      {
+        "from": 31,
+        "to": 40
+      },
+      {
+        "from": 89,
+        "to": 88
+      },
+      {
+        "from": 56,
+        "to": 60
+      },
+      {
+        "from": 81,
+        "to": 82
+      },
+      {
+        "from": 60,
+        "to": 61
+      },
+      {
+        "from": 62,
+        "to": 53
+      },
+      {
+        "from": 61,
+        "to": 88
+      },
+      {
+        "from": 69,
+        "to": 88
+      },
+      {
+        "from": 49,
+        "to": 67
+      },
+      {
+        "from": 53,
+        "to": 44
+      },
+      {
+        "from": 40,
+        "to": 49
+      },
+      {
+        "from": 58,
+        "to": 47
+      },
+      {
+        "from": 8,
+        "to": 7
+      },
+      {
+        "from": 47,
+        "to": 30
+      },
+      {
+        "from": 1,
+        "to": 18
+      },
+      {
+        "from": 30,
+        "to": 11
+      },
+      {
+        "from": 18,
+        "to": 11
+      },
+      {
+        "from": 82,
+        "to": 10
+      },
+      {
+        "from": 7,
+        "to": 70
+      },
+      {
+        "from": 87,
+        "to": 67
+      },
+      {
+        "from": 70,
+        "to": 88
+      },
+      {
+        "from": 10,
+        "to": 1
+      },
+      {
+        "from": 0,
+        "to": 1
+      },
+      {
+        "from": 44,
+        "to": 35
+      },
+      {
+        "from": 24,
+        "to": 35
+      },
+      {
+        "from": 84,
+        "to": 76
+      },
+      {
+        "from": 1,
+        "to": 82
+      },
+      {
+        "from": 85,
+        "to": 84
+      },
+      {
+        "from": 88,
+        "to": 70
+      },
+      {
+        "from": 84,
+        "to": 75
+      },
+      {
+        "from": 70,
+        "to": 67
+      },
+      {
+        "from": 75,
+        "to": 84
+      },
+      {
+        "from": 67,
+        "to": 65
+      },
+      {
+        "from": 76,
+        "to": 66
+      },
+      {
+        "from": 65,
+        "to": 66
+      },
+      {
+        "from": 84,
+        "to": 85
+      },
+      {
+        "from": 82,
+        "to": 83
+      },
+      {
+        "from": 85,
+        "to": 76
+      },
+      {
+        "from": 83,
+        "to": 86
+      }
+    ],
+    "result": {
+      "winner": "black",
+      "reason": "stalemate"
+    }
+  },
+  "searches": [
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 3,
+      "nodes": 718,
+      "score": 149,
+      "elapsedMs": 718,
+      "pv": [
+        {
+          "from": 64,
+          "to": 67
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 24595,
+      "elapsedMs": 1500,
+      "score": -15,
+      "pv": [
+        {
+          "from": 7,
+          "to": 24
+        },
+        {
+          "from": 70,
+          "to": 34
+        },
+        {
+          "from": 1,
+          "to": 20
+        },
+        {
+          "from": 88,
+          "to": 69
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 4,
+      "nodes": 768,
+      "score": 81,
+      "elapsedMs": 719,
+      "pv": [
+        {
+          "from": 82,
+          "to": 65
+        },
+        {
+          "from": 29,
+          "to": 38
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 25981,
+      "elapsedMs": 1500,
+      "score": 14,
+      "pv": [
+        {
+          "from": 19,
+          "to": 20
+        },
+        {
+          "from": 67,
+          "to": 69
+        },
+        {
+          "from": 25,
+          "to": 61
+        },
+        {
+          "from": 54,
+          "to": 45
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 1,
+      "score": 0,
+      "elapsedMs": 672,
+      "pv": [
+        {
+          "from": 54,
+          "to": 45
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 27296,
+      "elapsedMs": 1500,
+      "score": 101,
+      "pv": [
+        {
+          "from": 20,
+          "to": 56
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 69,
+          "to": 33
+        },
+        {
+          "from": 56,
+          "to": 60
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 4,
+      "score": 0,
+      "elapsedMs": 672,
+      "pv": [
+        {
+          "from": 45,
+          "to": 36
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 30484,
+      "elapsedMs": 1500,
+      "score": 241,
+      "pv": [
+        {
+          "from": 27,
+          "to": 36
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 29,
+          "to": 38
+        },
+        {
+          "from": 69,
+          "to": 33
+        },
+        {
+          "from": 56,
+          "to": 60
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 4,
+      "nodes": 1632,
+      "score": -38,
+      "elapsedMs": 703,
+      "pv": [
+        {
+          "from": 88,
+          "to": 69
+        },
+        {
+          "from": 1,
+          "to": 20
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 23512,
+      "elapsedMs": 1500,
+      "score": 299,
+      "pv": [
+        {
+          "from": 36,
+          "to": 45
+        },
+        {
+          "from": 60,
+          "to": 51
+        },
+        {
+          "from": 25,
+          "to": 43
+        },
+        {
+          "from": 69,
+          "to": 50
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 4,
+      "score": 0,
+      "elapsedMs": 703,
+      "pv": [
+        {
+          "from": 58,
+          "to": 49
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 3,
+      "nodes": 23317,
+      "elapsedMs": 1500,
+      "score": 336,
+      "pv": [
+        {
+          "from": 25,
+          "to": 52
+        },
+        {
+          "from": 89,
+          "to": 80
+        },
+        {
+          "from": 1,
+          "to": 20
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 1,
+      "score": 0,
+      "elapsedMs": 703,
+      "pv": [
+        {
+          "from": 49,
+          "to": 40
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 29447,
+      "elapsedMs": 1500,
+      "score": 444,
+      "pv": [
+        {
+          "from": 52,
+          "to": 49
+        },
+        {
+          "from": 69,
+          "to": 58
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 70,
+          "to": 34
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 5,
+      "nodes": 2291,
+      "score": -119,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 65,
+          "to": 58
+        },
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 67,
+          "to": 49
+        },
+        {
+          "from": 40,
+          "to": 49
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 28927,
+      "elapsedMs": 1500,
+      "score": 461,
+      "pv": [
+        {
+          "from": 31,
+          "to": 40
+        },
+        {
+          "from": 60,
+          "to": 51
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 86,
+          "to": 76
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 3,
+      "nodes": 562,
+      "score": -52,
+      "elapsedMs": 687,
+      "pv": [
+        {
+          "from": 89,
+          "to": 88
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 26459,
+      "elapsedMs": 1500,
+      "score": 549,
+      "pv": [
+        {
+          "from": 56,
+          "to": 60
+        },
+        {
+          "from": 70,
+          "to": 34
+        },
+        {
+          "from": 33,
+          "to": 42
+        },
+        {
+          "from": 34,
+          "to": 16
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 4,
+      "nodes": 1327,
+      "score": 16,
+      "elapsedMs": 718,
+      "pv": [
+        {
+          "from": 81,
+          "to": 82
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 82,
+          "to": 37
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 3,
+      "nodes": 24632,
+      "elapsedMs": 1500,
+      "score": 592,
+      "pv": [
+        {
+          "from": 60,
+          "to": 61
+        },
+        {
+          "from": 70,
+          "to": 71
+        },
+        {
+          "from": 61,
+          "to": 59
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 27,
+      "score": 0,
+      "elapsedMs": 719,
+      "pv": [
+        {
+          "from": 62,
+          "to": 53
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 31562,
+      "elapsedMs": 1500,
+      "score": 1027,
+      "pv": [
+        {
+          "from": 61,
+          "to": 88
+        },
+        {
+          "from": 69,
+          "to": 88
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 70,
+          "to": 69
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 6,
+      "nodes": 2654,
+      "score": -496,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 69,
+          "to": 88
+        },
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 67,
+          "to": 49
+        },
+        {
+          "from": 40,
+          "to": 49
+        },
+        {
+          "from": 58,
+          "to": 51
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 27912,
+      "elapsedMs": 1500,
+      "score": 1066,
+      "pv": [
+        {
+          "from": 49,
+          "to": 67
+        },
+        {
+          "from": 87,
+          "to": 67
+        },
+        {
+          "from": 40,
+          "to": 49
+        },
+        {
+          "from": 58,
+          "to": 47
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 8,
+      "score": 0,
+      "elapsedMs": 687,
+      "pv": [
+        {
+          "from": 53,
+          "to": 44
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 30972,
+      "elapsedMs": 1500,
+      "score": 1478,
+      "pv": [
+        {
+          "from": 40,
+          "to": 49
+        },
+        {
+          "from": 87,
+          "to": 67
+        },
+        {
+          "from": 49,
+          "to": 58
+        },
+        {
+          "from": 82,
+          "to": 19
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 7,
+      "nodes": 3293,
+      "score": -564,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 58,
+          "to": 47
+        },
+        {
+          "from": 8,
+          "to": 17
+        },
+        {
+          "from": 87,
+          "to": 67
+        },
+        {
+          "from": 35,
+          "to": 44
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 28904,
+      "elapsedMs": 1500,
+      "score": 1470,
+      "pv": [
+        {
+          "from": 8,
+          "to": 7
+        },
+        {
+          "from": 87,
+          "to": 67
+        },
+        {
+          "from": 7,
+          "to": 70
+        },
+        {
+          "from": 88,
+          "to": 77
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 3,
+      "nodes": 1411,
+      "score": -410,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 47,
+          "to": 30
+        },
+        {
+          "from": 1,
+          "to": 18
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 33560,
+      "elapsedMs": 1500,
+      "score": 1415,
+      "pv": [
+        {
+          "from": 1,
+          "to": 18
+        },
+        {
+          "from": 82,
+          "to": 19
+        },
+        {
+          "from": 67,
+          "to": 65
+        },
+        {
+          "from": 30,
+          "to": 23
+        },
+        {
+          "from": 4,
+          "to": 13
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 2,
+      "score": 0,
+      "elapsedMs": 671,
+      "pv": [
+        {
+          "from": 30,
+          "to": 11
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 5,
+      "nodes": 37413,
+      "elapsedMs": 1500,
+      "score": 1892,
+      "pv": [
+        {
+          "from": 18,
+          "to": 11
+        },
+        {
+          "from": 70,
+          "to": 69
+        },
+        {
+          "from": 7,
+          "to": 88
+        },
+        {
+          "from": 83,
+          "to": 67
+        },
+        {
+          "from": 0,
+          "to": 18
+        },
+        {
+          "from": 69,
+          "to": 24
+        },
+        {
+          "from": 18,
+          "to": 24
+        },
+        {
+          "from": 44,
+          "to": 35
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 7,
+      "nodes": 3855,
+      "score": -716,
+      "elapsedMs": 719,
+      "pv": [
+        {
+          "from": 82,
+          "to": 10
+        },
+        {
+          "from": 67,
+          "to": 65
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 38664,
+      "elapsedMs": 1500,
+      "score": 2083,
+      "pv": [
+        {
+          "from": 7,
+          "to": 70
+        },
+        {
+          "from": 87,
+          "to": 67
+        },
+        {
+          "from": 70,
+          "to": 88
+        },
+        {
+          "from": 10,
+          "to": 11
+        },
+        {
+          "from": 35,
+          "to": 44
+        },
+        {
+          "from": 11,
+          "to": 29
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 6,
+      "nodes": 1309,
+      "score": -687,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 87,
+          "to": 67
+        },
+        {
+          "from": 35,
+          "to": 44
+        },
+        {
+          "from": 88,
+          "to": 77
+        },
+        {
+          "from": 70,
+          "to": 68
+        },
+        {
+          "from": 10,
+          "to": 11
+        },
+        {
+          "from": 2,
+          "to": 22
+        },
+        {
+          "from": 11,
+          "to": 29
+        },
+        {
+          "from": 68,
+          "to": 77
+        },
+        {
+          "from": 29,
+          "to": 33
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 37655,
+      "elapsedMs": 1500,
+      "score": 2083,
+      "pv": [
+        {
+          "from": 70,
+          "to": 88
+        },
+        {
+          "from": 10,
+          "to": 11
+        },
+        {
+          "from": 35,
+          "to": 44
+        },
+        {
+          "from": 11,
+          "to": 29
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 8,
+      "score": 0,
+      "elapsedMs": 687,
+      "pv": [
+        {
+          "from": 10,
+          "to": 1
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 51720,
+      "elapsedMs": 1500,
+      "score": 3544,
+      "pv": [
+        {
+          "from": 0,
+          "to": 1
+        },
+        {
+          "from": 44,
+          "to": 35
+        },
+        {
+          "from": 1,
+          "to": 73
+        },
+        {
+          "from": 84,
+          "to": 76
+        },
+        {
+          "from": 24,
+          "to": 35
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 8,
+      "score": 0,
+      "elapsedMs": 704,
+      "pv": [
+        {
+          "from": 44,
+          "to": 35
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 45807,
+      "elapsedMs": 1500,
+      "score": 3544,
+      "pv": [
+        {
+          "from": 24,
+          "to": 35
+        },
+        {
+          "from": 84,
+          "to": 76
+        },
+        {
+          "from": 1,
+          "to": 73
+        },
+        {
+          "from": 67,
+          "to": 47
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 8,
+      "nodes": 2626,
+      "score": -1273,
+      "elapsedMs": 672,
+      "pv": [
+        {
+          "from": 84,
+          "to": 76
+        },
+        {
+          "from": 35,
+          "to": 42
+        },
+        {
+          "from": 76,
+          "to": 84
+        },
+        {
+          "from": 42,
+          "to": 61
+        },
+        {
+          "from": 84,
+          "to": 76
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 41669,
+      "elapsedMs": 1500,
+      "score": 3741,
+      "pv": [
+        {
+          "from": 1,
+          "to": 82
+        },
+        {
+          "from": 76,
+          "to": 84
+        },
+        {
+          "from": 49,
+          "to": 58
+        },
+        {
+          "from": 67,
+          "to": 87
+        },
+        {
+          "from": 82,
+          "to": 83
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 9,
+      "nodes": 3063,
+      "score": -1239,
+      "elapsedMs": 718,
+      "pv": [
+        {
+          "from": 85,
+          "to": 84
+        },
+        {
+          "from": 88,
+          "to": 16
+        },
+        {
+          "from": 76,
+          "to": 66
+        },
+        {
+          "from": 16,
+          "to": 17
+        },
+        {
+          "from": 66,
+          "to": 76
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 40987,
+      "elapsedMs": 1500,
+      "score": 3808,
+      "pv": [
+        {
+          "from": 88,
+          "to": 70
+        },
+        {
+          "from": 67,
+          "to": 51
+        },
+        {
+          "from": 82,
+          "to": 83
+        },
+        {
+          "from": 84,
+          "to": 75
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 10,
+      "nodes": 2607,
+      "score": -1484,
+      "elapsedMs": 687,
+      "pv": [
+        {
+          "from": 84,
+          "to": 75
+        },
+        {
+          "from": 82,
+          "to": 83
+        },
+        {
+          "from": 75,
+          "to": 66
+        },
+        {
+          "from": 83,
+          "to": 65
+        },
+        {
+          "from": 66,
+          "to": 75
+        },
+        {
+          "from": 65,
+          "to": 74
+        },
+        {
+          "from": 75,
+          "to": 84
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 36738,
+      "elapsedMs": 1500,
+      "score": 4008,
+      "pv": [
+        {
+          "from": 70,
+          "to": 67
+        },
+        {
+          "from": 83,
+          "to": 63
+        },
+        {
+          "from": 11,
+          "to": 30
+        },
+        {
+          "from": 76,
+          "to": 84
+        },
+        {
+          "from": 67,
+          "to": 63
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 6,
+      "score": 0,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 75,
+          "to": 84
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 4,
+      "nodes": 45078,
+      "elapsedMs": 1500,
+      "score": 4428,
+      "pv": [
+        {
+          "from": 67,
+          "to": 65
+        },
+        {
+          "from": 84,
+          "to": 85
+        },
+        {
+          "from": 65,
+          "to": 83
+        },
+        {
+          "from": 76,
+          "to": 84
+        },
+        {
+          "from": 83,
+          "to": 84
+        },
+        {
+          "from": 85,
+          "to": 76
+        },
+        {
+          "from": 84,
+          "to": 86
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 11,
+      "score": 0,
+      "elapsedMs": 688,
+      "pv": [
+        {
+          "from": 76,
+          "to": 66
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 1,
+      "nodes": 59,
+      "elapsedMs": 15,
+      "score": 99995,
+      "pv": [
+        {
+          "from": 65,
+          "to": 66
+        },
+        {
+          "from": 84,
+          "to": 85
+        },
+        {
+          "from": 82,
+          "to": 83
+        },
+        {
+          "from": 85,
+          "to": 76
+        },
+        {
+          "from": 83,
+          "to": 86
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 16,
+      "nodes": 2787,
+      "score": -99996,
+      "elapsedMs": 672,
+      "pv": [
+        {
+          "from": 84,
+          "to": 85
+        },
+        {
+          "from": 82,
+          "to": 83
+        },
+        {
+          "from": 85,
+          "to": 76
+        },
+        {
+          "from": 83,
+          "to": 86
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 1,
+      "nodes": 59,
+      "elapsedMs": 0,
+      "score": 99997,
+      "pv": [
+        {
+          "from": 82,
+          "to": 83
+        },
+        {
+          "from": 85,
+          "to": 76
+        },
+        {
+          "from": 83,
+          "to": 86
+        }
+      ]
+    },
+    {
+      "side": "red",
+      "engine": "pikafish",
+      "completedDepth": 1,
+      "nodes": 2,
+      "score": 0,
+      "elapsedMs": 735,
+      "pv": [
+        {
+          "from": 85,
+          "to": 76
+        }
+      ],
+      "engineVersion": "Pikafish 2026-09-06"
+    },
+    {
+      "side": "black",
+      "engine": "self",
+      "completedDepth": 1,
+      "nodes": 54,
+      "elapsedMs": 0,
+      "score": 99999,
+      "pv": [
+        {
+          "from": 83,
+          "to": 86
+        }
+      ]
+    }
+  ],
+  "outcome": "loss",
+  "elapsedSeconds": 55.71800000000076
+}

@@ -1,0 +1,34 @@
+{
+  "native": {
+    "engine": "pikafish",
+    "maxDepth": 128,
+    "timeLimitMs": 500
+  },
+  "self": {
+    "maxDepth": 8,
+    "timeLimitMs": 1500
+  },
+  "version": "Pikafish 2026-09-06",
+  "workers": 2,
+  "openings": [
+    [],
+    [
+      {
+        "from": 87,
+        "to": 71
+      },
+      {
+        "from": 25,
+        "to": 43
+      }
+    ]
+  ],
+  "hashes": {
+    "ai/search.py": "28343d7d34a3d77b9d2225cd9239f6dd542a749dd5b65c32cbfc3b8557b7e703",
+    "engine/rules.py": "1af9dd5c2b4fd0b86ae10df52434b3df38fa2d3ca7f0d163d69cd3136abb7c14",
+    "engine/evaluation.py": "e3ef600e4de7cf911bc8643b15ac934bf2f77079dc55693cdbe9cde1061082c3",
+    "backend/pikafish.py": "d195795094e85121526460eca7cd1f3143ac2f47451cc7a5494ea1ec844b7647"
+  },
+  "binaryHash": "0d57d64c212e78f96cba9e5e4f140d8872f8faa42ea631a27ab6c5db08509da3",
+  "networkHash": "7d13d73569a9b571ba0eb20cf1596247bc2a42738967e61afef6482b231e900e"
+}

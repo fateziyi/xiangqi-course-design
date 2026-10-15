@@ -1,0 +1,1 @@
+"""Independent search service."""

@@ -1,0 +1,43 @@
+{
+  "format": "xiangqi-course-record",
+  "version": 1,
+  "ruleset": "course-v1",
+  "createdAt": "2026-10-12T10:42:36.023548+08:00",
+  "mode": "human_human",
+  "humanSide": null,
+  "redAI": {
+    "maxDepth": 4,
+    "timeLimitMs": 1500
+  },
+  "blackAI": {
+    "maxDepth": 4,
+    "timeLimitMs": 1500
+  },
+  "moves": [
+    {
+      "from": 64,
+      "to": 67
+    },
+    {
+      "from": 25,
+      "to": 22
+    },
+    {
+      "from": 82,
+      "to": 63
+    },
+    {
+      "from": 1,
+      "to": 18
+    },
+    {
+      "from": 81,
+      "to": 82
+    },
+    {
+      "from": 0,
+      "to": 1
+    }
+  ],
+  "result": null
+}
