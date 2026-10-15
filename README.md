@@ -25,6 +25,8 @@ git push -u origin feature/board-interaction
 
 在 GitHub 创建 Pull Request，目标分支选 `main`，由另一人检查后合并。各自使用不同功能分支，修改相同模块前先沟通；不要强制推送 `main`。每次工作前更新主分支。`AGENTS.md` 和 `SPEC.md` 是共同执行约定，需求变化先更新规格。
 
+首次获取及本机传输故障的实际排查记录见 [GitHub 协作与网络说明](docs/GitHub协作与网络说明.md)。
+
 Git 不包含 `.venv`、`node_modules`、构建输出、运行日志及环境变量文件，新电脑需单独安装依赖。原始课程题目 PDF 和分组名单 DOCX 留在本地，由组内另行获取；公开仓库的需求与实现说明见 `SPEC.md`。皮卡鱼二进制、对应源码与许可文件一并保留，约 48 MB 的权重通过 Git LFS 保存。Git for Windows 通常附带 Git LFS；克隆前执行 `git lfs install`，克隆后执行 `git lfs pull`，确认权重已下载，再安装和启动。不要将 LFS 指针文件误当成权重，也不要只下载 GitHub 源码 ZIP 来代替完整克隆。
 
 ## 环境与安装
