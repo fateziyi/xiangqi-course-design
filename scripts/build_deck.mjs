@@ -5,7 +5,7 @@ import {pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile,FileBlob} from '@oai/artifact-tool';
 
 const root=process.cwd();
-const skill='C:/Users/86195/.codex/plugins/cache/openai-primary-runtime/presentations/26.1011.11113/skills/presentations';
+const skill=process.env.PRESENTATION_SKILL_DIR||'C:/Users/86195/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations';
 const runtime='C:/Users/86195/.cache/codex-runtimes/codex-primary-runtime/dependencies';
 process.env.RUNTIME_NODE_MODULES=path.join(runtime,'node/node_modules');
 const build=path.join(root,'.runtime/deck');
@@ -28,7 +28,7 @@ let s=slide('中国象棋游戏及其 AI 算法','课程依据：2-题目.pdf �
 text(s,'弈境',90,180,700,110,76,red,true);
 text(s,'网页交互 · 权威规则 · 独立搜索服务',94,315,1060,60,30);
 text(s,'专业课程设计 II   B230405',94,420,1000,50,24,muted);
-text(s,'双引擎演示版   2026年10月12日',94,476,1000,50,24,muted);
+text(s,'双引擎 · 分工调整版   2026年10月22日',94,476,1000,50,24,muted);
 
 s=slide('课题目标与功能范围','来源：2-题目.pdf 课题二；SPEC.md C01—C09。战胜教师仅通过现场实战确认。');
 rows(s,[['三种对战模式','人人、人机、AI 对 AI；人机可选执红或执黑'],['规则与交互','合法目标、推荐起终点、将军、胜负及本次运行统计'],['对局留存','JSON 保存与导入、逐步回放、撤销一步与人机撤销一轮']]);
@@ -60,10 +60,10 @@ for(const [i,value,label] of [[0,summary.wins,'胜'],[1,summary.draws,'和'],[2,
   text(s,String(value),90+i*370,270,320,110,82,i===0?red:ink,true);text(s,label,94+i*370,395,300,40,26,muted);
 }
 text(s,`得分率 ${(summary.scoreRate*100).toFixed(1)}%   双方各执红 20 局`,90,485,1100,55,30,green,true);
-text(s,`51 项测试通过；自研标准对基础得分率 ${(basicSummary.scoreRate*100).toFixed(1)}%`,90,575,1100,60,23);
+text(s,`56 项测试通过（10月15日）；标准对基础得分率 ${(basicSummary.scoreRate*100).toFixed(1)}%`,90,575,1100,60,23);
 
-s=slide('演示流程与分工','来源：SPEC.md 第9节、docs/组长模块报告.md、docs/组员模块报告.md。责任分工不等于个人独立编写；实际贡献须本人核实。');
-rows(s,[['演示顺序','将军提示 → 两种引擎对弈 → 思考中暂停 → 棋谱回放'],['组长责任','架构、象棋规则、AI、通信和系统集成'],['组员责任','界面交互、记录操作、测试验证与操作说明']]);
+s=slide('演示流程与当前分工','来源：SPEC.md 第9节、docs/组长模块报告.md、docs/组员模块报告.md。2026-10-22 职责交换，组长/组员身份不变。组长主讲功能与测试，组员主讲总体设计、规则与算法。责任分工不等于个人独立编写；实际贡献须本人核实。');
+rows(s,[['演示顺序','将军提示 → 两种引擎对弈 → 思考中暂停 → 棋谱回放'],['组长责任','界面交互、对局管理与系统测试'],['组员责任','总体设计、象棋规则与 AI 核心']]);
 
 s=slide('已知边界与现场验收','来源：SPEC.md A08/A13/A14；docs/acceptance.md。不得把待实战写为已战胜。');
 rows(s,[['原生引擎对照','皮卡鱼 0.5 秒对自研 1.5 秒，换色 4 局全胜；不等于胜教师'],['规则与数据边界','未实现完整竞赛长将长捉；服务重启不保留内存对局'],['现场需完成','确认第三方模式认可；教师实战；个人贡献及报告核实']]);
@@ -77,14 +77,14 @@ for(const [i,s] of p.slides.items.entries()){
 const candidate=path.join(build,'candidate.pptx');
 await (await PresentationFile.exportPptx(p)).save(candidate);
 const {finalizePresentation}=await import(pathToFileURL(path.join(skill,'container_tools/artifact_tool_utils.mjs')).href);
-const finalPath=path.join(root,'docs/答辩演示-双引擎版.pptx');
+const finalPath=path.join(root,'docs/答辩演示-分工调整版.pptx');
 await finalizePresentation({workspaceDir:root,candidatePath:candidate,finalPath,
   pythonExecutable:path.join(runtime,'python/python.exe'),
   integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),
   layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),
   layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],
   explicitTotalSlideCount:10,fontPolicy:{basis:'design',families:['Microsoft YaHei']},verifyArtifactToolImport:true,
-  receiptPath:path.join(build,'validation-dual-engine.json')});
+  receiptPath:path.join(build,'validation-role-update-20261022.json')});
 const imported=await PresentationFile.importPptx(await FileBlob.load(finalPath));
 for(const [i,finalSlide] of imported.slides.items.entries()){
   const image=await imported.export({slide:finalSlide,format:'png',scale:1});
